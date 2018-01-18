@@ -12,16 +12,30 @@ public class Validation {
 
 		// 1. OPTIONAL: Watch the first 2 minutes of this movie: http://vimeo.com/2485018
 		
-		int randomNumber = new Random().nextInt(5);
+		int rand = new Random().nextInt(5);
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
 		
-		System.out.println(randomNumber);
+		System.out.println(rand);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
-
+if (rand ==0) {
+	JOptionPane.showMessageDialog(null,"You have a nice teeth.");
+}
+if (rand==1) {
+	JOptionPane.showMessageDialog(null, "You have pretty face... holes... don't eat me please.");
+}
+if (rand==2) {
+	JOptionPane.showMessageDialog(null, "Have a great -2400 hours!! :D :D");
+}
+if (rand==3) {
+	JOptionPane.showMessageDialog(null, "You don't seem like you will stab me!!");
+}
+if (rand==4) {
+JOptionPane.showMessageDialog(null, "Don't sacrifice me to your mom...");
+}
+}
 		// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
 	}
-}
