@@ -13,7 +13,7 @@ public class IntroToRandom {
 	public static void main(String[] args) {
 		Random gen= new Random();
 		//int r = gen.nextInt(101);
-		int r = gen.nextInt(88- -222)+ -222;
+		int r = gen.nextInt(88- -222) -222;
 		
 		//2. Now make r random. 
 		//   Create an object of the Random class
